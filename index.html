@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./styles/styleAccueil.css">
+  <title>Accueil</title>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo"><source src="./videos/accueil.mp4" type="video/mp4"></video>
+    <img id="audio-control" class="muted" src="./img/mute.svg" width="64" height="64" alt="Sound Off" />
+    <div class="content">
+      <h1>Astronautes, des hommes au destin exceptionnel !</h1>
+      <p>Nous allons vous présenter dans ce Web Documentaire le parcours général d’un astronaute.
+        <br>
+        Ces Hommes courageux dont, on ne sait généralement pas comment ils en sont arrivés là où 
+        ils en sont aujourd’hui. 
+        <br>
+        
+             <a class="button" href="#popup1">Lire Plus</a></p>
+             <a href="./html/menu.html" alt="acceder">
+                <button id="myBtn">Acceder au webdoc</button></a> 
+                <a class="button1" href="#popup2">Sources</a>
+    </div>
+    
+     
+    <div id="popup1" class="overlay">
+      <div class="popup">
+        <h2>Qu'est ce que c'est ?</h2><a class="close" href="#">×</a>
+        <div class="content2">
+          Ce Webdocumentaire permettra de mettre en valeur tous les efforts et sacrifices 
+          qu’ils auront dû fournir afin de faire avancer la science.
+          <br><br>
+        Mais qu’est-ce qu’est réellement un astronaute ? <br>
+        L’astronaute est à la fois un voyageur 
+        et scientifique de l’espace. En effet, un astronaute est soit en mission spatiale, où il 
+        y réalise des missions scientifiques et techniques, soit sur Terre où il y passe 
+        l’essentiel de son temps à préparer sa prochaine mission spatiale...
+        </div>
+      </div>
+    </div>
+    <div id="popup2" class="overlay">
+      <div class="popup">
+        <h2>Les Sources</h2><a class="close" href="#">×</a>
+        <div class="content2">
+          Source Accueil
+          <p>
+            <br>
+            video sources :
+            <br><a href="https://www.pexels.com/">Pexels</a>
+            <a href="https://vod-progressive.akamaized.net/exp=1649016886~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4445%2F20%2F522226196%2F2441126269.mp4~hmac=a8aec44eb87c99f11d07a9d2094c92cca722995e218dd74dfd7bfd98b83f585a/vimeo-prod-skyfire-std-us/01/4445/20/522226196/2441126269.mp4?download=1&filename=pexels-kindel-media-7106707.mp4">Source vidéo 2</a>
+            <a href="https://vod-progressive.akamaized.net/exp=1649015165~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2899%2F18%2F464495690%2F2059475075.mp4~hmac=196cac3305e7f8d7f6e7f0977ce2453de7596d6d32fc2dbf1864801f55abb38a/vimeo-prod-skyfire-std-us/01/2899/18/464495690/2059475075.mp4?download=1&filename=pexels-amina-filkins-5511865.mp4">Srouce vidéo 3</a>
+            <a href="https://vod-progressive.akamaized.net/exp=1649014895~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2899%2F18%2F464495696%2F2059475049.mp4~hmac=1a9121ccfd595402406acbfb6fea12257e6ffc37f3a9ee7d13afb026526849f0/vimeo-prod-skyfire-std-us/01/2899/18/464495696/2059475049.mp4?download=1&filename=pexels-amina-filkins-5511861.mp4">Source vidéo 4</a>
+            <a href="https://vod-progressive.akamaized.net/exp=1649014481~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2899%2F18%2F464495691%2F2059475050.mp4~hmac=aa9cc65329eb8521ea97a440a0f323b6697f93da29a7bcf61c4629f233a7859b/vimeo-prod-skyfire-std-us/01/2899/18/464495691/2059475050.mp4?download=1&filename=pexels-amina-filkins-5511862.mp4">Source video 5</a>
+            <a href="https://vod-progressive.akamaized.net/exp=1649014477~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2899%2F18%2F464495665%2F2059474963.mp4~hmac=85603fe77559916b3b01b719682ea57d10f72cd5ef9898e9874ae7816896feac/vimeo-prod-skyfire-std-us/01/2899/18/464495665/2059474963.mp4?download=1&filename=pexels-amina-filkins-5511863.mp4">Source vidéo 6</a>
+            <a href="https://vod-progressive.akamaized.net/exp=1649014399~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2899%2F18%2F464495692%2F2059475016.mp4~hmac=e7e258a6163fbeb66e7f996fb8b9206e8e0c26c82ff62c430f1bdf967623e2b7/vimeo-prod-skyfire-std-us/01/2899/18/464495692/2059475016.mp4?download=1&filename=pexels-amina-filkins-5511859.mp4">Source video 7</a>
+            <a href="https://vod-progressive.akamaized.net/exp=1649014196~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4444%2F20%2F522222618%2F2441062348.mp4~hmac=b406b5059580de731bc31f5bba92799fea7d7a753df488892687f39f0b23692c/vimeo-prod-skyfire-std-us/01/4444/20/522222618/2441062348.mp4?download=1&filename=pexels-kindel-media-7106567.mp4">Source vidéo 8</p>
+            <a href="https://ia801506.us.archive.org/32/items/spacex-crew-4-training-b-roll/Crew_4_Broll_4K_20220325.mp4">Source vidéo 9</a>
+            <a href="https://ia902909.us.archive.org/33/items/NASA_SpaceX_Demo-2_Mission_Animation/SPX09_CommercialCrew_MASTER.mp4">Source vidéo 10</a>
+            <br>
+            <br><a href="https://fontawesome.com">Audio icon</a>
+            <br>
+            <br><a href="https://www.flaticon.com/free-icon/menu_2948186?term=menu&related_id=2948186">Menu icon</a>
+            <br><a href="https://www.flaticon.com/free-icons/up-arrow" title="up arrow icons">Up arrow icons created by dmitri13 - Flaticon</a>
+            <br>
+            <br><a href="https://www.flaticon.com/premium-icon/certificate_998395?term=qualification&page=1&position=29&page=1&position=29&related_id=998395&origin=tag">Qualifications icon</a>
+            <br><a href="https://cdn-icons-png.flaticon.com/128/1831/1831971.png">Entraiment icon</a>
+            <br><a href="https://www.flaticon.com/free-icon/startup_1067357\">Mission icon</a>
+            <br><a href="https://www.flaticon.com/premium-icon/earth_1386428">Conséquence icon</a>
+            <br>
+            <br>code :
+            <br><a href="https://codepen.io/goodkatz/pen/LYPGxQz">Code 1</a>
+            <a href="https://codepen.io/roesinn/pen/ZEbbMbN">Code 2</a>
+            <a href="https://codepen.io/jonyablonski/pen/bpoJbJ">Code 3</a>
+            <br>
+
+            <br>images : 
+            <br><a href="https://pixabay.com/photos/moon-universe-space-milky-way-2048727/">Image 1</a>
+            <a href="https://pixabay.com/photos/coffee-glasses-open-book-study-2511065/">Image 2</a>
+            <a href="https://pixabay.com/photos/books-shelves-book-store-library-5433432/">Image 3</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <script src="./script/scriptv.js"></script>
+  
+</body>
+</html>
