@@ -458,6 +458,10 @@ a:focus {
   background-position: center center;
   background-size: cover;
 }
+
+#imageEntr {
+	background-image: url(../img/fondMission.jpg);
+}
 @media (min-width: 120em) and (-webkit-min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
