@@ -453,6 +453,9 @@ a:focus {
   background-position: center center;
   background-size: cover;
 }
+#imageQual {
+	background-image: url(https://www.pexels.com/photo/graduates-holding-their-diplomas-7972724/);
+}
 @media (min-width: 120em) and (-webkit-min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
