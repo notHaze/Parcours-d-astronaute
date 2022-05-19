@@ -8,6 +8,11 @@ body{
 	display:block;
 }
 
+.main{
+  position: relative;
+  z-index: 1;
+}
+
 /*autre*/
 .headerp h1 {
   font-family: "Lato", sans-serif;
@@ -347,7 +352,7 @@ a:focus {
 .header__img {
   position: absolute;
   width: 100%;
-  z-index: 1;
+  z-index: auto;
   top: 50%;
   transform: translateY(-35%);
   opacity: 0.6;
